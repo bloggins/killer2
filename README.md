@@ -8,11 +8,11 @@ It's a AV/EDR Evasion tool created to bypass security tools for learning, until 
 * IAT Hiding and Obfuscation & API Unhooking
 * ETW Patchnig for bypassing some security controls
 * Included sandbox evasion techniques & Basic Anti-Debugging
-* Fully obfuscated (Functions - Keys - Shellcode) by AES
+* Fully obfuscated (Functions - Keys - Shellcode) by XOR-ing
 * Shellcode reversed and Encrypted
 * Moving payload into hallowed memory without using APIs 
 * GetProcAddress & GetModuleHandle Implementation by @cocomelonc
-* Runs without creating new thread & Suppoers x64 
+* Runs without creating new thread & Supports x64
 
 # How to use it
 
@@ -22,7 +22,9 @@ Generate your shellcode with msfvenom tool :
 
 * py3 encryptor.py payload.bin > produces payload.h
 
-* py3 reverse_shellcode.py --header payload.h
+* py3 reverse_shellcode.py --header payload.h > produces shellcode_recovered.bin
+
+* py3 encryptor.py shellcode_recovered.bin > produces production payload.h
 
 * cl /EHsc killer_aes.cpp Shlwapi.lib psapi.lib
 
@@ -37,4 +39,3 @@ Generate your shellcode with msfvenom tool :
 * First thanks to [Abdallah Mohammed](https://github.com/abdallah-elsharif) for helping me to develop it. 
 * Second, I just altered it!
 * The tool is for educational purposes only
-
