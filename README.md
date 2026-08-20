@@ -26,9 +26,9 @@ Generate your shellcode with msfvenom tool or any other C2 generated BIN file:
 
 * py3 encryptor.py shellcode_recovered.bin > produces production payload.h
 
-* cl /EHsc killer_aes.cpp Shlwapi.lib psapi.lib
+* Windows x64 Native Tools: cl /EHsc killer_aes.cpp Shlwapi.lib psapi.lib
 
-* x86_64-w64-mingw32-g++ -O2 -static -s -fpermissive -o killer.exe killer_aes.cpp -lshlwapi -lpsapi
+* Linux: x86_64-w64-mingw32-g++ -O2 -static -s -fpermissive -o killer.exe killer_aes.cpp -lshlwapi -lpsapi
 
 
 
