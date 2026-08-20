@@ -12,7 +12,7 @@ It's a AV/EDR Evasion tool created to bypass security tools for learning, until 
 * Shellcode reversed and Encrypted
 * Moving payload into hallowed memory without using APIs 
 * GetProcAddress & GetModuleHandle Implementation by @cocomelonc
-* Runs without creating new thread & Suppoers x64 and x86 arch
+* Runs without creating new thread & Suppoers x64 
 
 # How to use it
 
