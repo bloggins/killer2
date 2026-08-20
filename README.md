@@ -8,8 +8,8 @@ It's a AV/EDR Evasion tool created to bypass security tools for learning.
 * IAT Hiding and Obfuscation & API Unhooking
 * ETW Patchnig for bypassing some security controls
 * Included sandbox evasion techniques & Basic Anti-Debugging
-* Fully obfuscated (Functions - Keys - Shellcode) by AES
-* Shellcode reversed and Encrypted
+* Fully obfuscated (Functions - Keys - Shellcode) by XOR'ing
+* Shellcode reversed and Encrypted w/AES
 * Moving payload into hallowed memory without using APIs 
 * GetProcAddress & GetModuleHandle Implementation by @cocomelonc
 * Runs without creating new thread & Supports x64
