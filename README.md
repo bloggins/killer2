@@ -37,5 +37,4 @@ Generate your shellcode with msfvenom tool :
 * First thanks to [Abdallah Mohammed](https://github.com/abdallah-elsharif) for helping me to develop it. 
 * Second, I just altered it!
 * The tool is for educational purposes only
-* Compile the code with visual studio compiler
 
