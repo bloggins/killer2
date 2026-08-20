@@ -1,5 +1,5 @@
 # KILLER2 TOOL (EDR Evasion)
-It's a AV/EDR Evasion tool created to bypass security tools for learning, until now the tool is FUD.
+It's a AV/EDR Evasion tool created to bypass security tools for learning.
 
 # Features:
 
